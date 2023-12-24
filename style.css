@@ -1,0 +1,161 @@
+    
+    header, section, footer, aside, nav, article, figure, figcaption {
+        display: block;
+}
+    body{
+        color: #666;
+        background-color: #f9f8f6;
+        background-image: url("gambar/latar.jpg");
+        background-position: center;
+        font-family: Georgia, Times, serif;
+        line-height: 1.4em;
+        margin: 0px;
+    }
+    .wrapper {
+        width: 940px;
+        margin: 20px auto 20px auto;
+        border: 2px solid #000000;
+        background-color: #ffffff;
+    }
+    header{
+        height: 160px;
+        background-image: url("gambar/header.jpg");
+    }
+    h1{
+        text-indent: -9999px;
+        width: 940px;
+        height: 130px;
+        margin: 0px;
+    }
+    nav, footer{
+        clear: both;
+        color: #ffffff;
+        background-color: #aeaca8;
+        height: 30px;
+    }
+    nav ul{
+        margin: 0px;
+        padding: 5px, 0px, 5px, 30px;
+    }
+    nav li{
+        display: inline;
+        margin-right: 40px;
+    }
+    nav li a {
+        color: #ffffff;
+    }
+    nav li a:hover, nav li a.current {
+        color: #000000;
+    }
+    section.utama{
+        float: left;
+        width: 659px;
+        border-left: 1px solid #eeeeee;
+    }
+    article{
+        clear: both;
+        overflow: auto;
+        width: 100%;
+    }
+    hgroup{
+        margin: 40px;
+    }
+    figure{
+        float: left;
+        width: 290px;
+        height: 220px;
+        padding: 5px;
+        margin: 20px;
+        border: 1px solid #eeeeee;
+    }
+    figcaption{
+        font-size: 90%;
+        text-align: left;
+    }
+    aside{
+        width: 230px;
+        float: left;
+        padding: 0px 0px 0px 20px;
+    }
+    aside section a{
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #eeeeee ;
+    }
+    aside section a:hover{
+        color: #986d6a;
+        background-color: #efefef;
+    }
+    a{
+        color: #0000FF;
+        text-decoration: none;
+    }
+    h1, h2, h3{
+        font-weight: normal;
+    }
+    h2{
+        margin: 10px 0px 5px 0px;
+        padding: 0px;
+    }
+    h3{
+        margin: 0px 0px 10px 0px;
+        color: #de6581;
+    }
+    aside h2{
+        padding: 30px 0px 10px 0px;
+        color: #de6581;
+    }
+    footer{
+        font-size: 80%;
+        padding: 7px 0px 0px 20px;
+    }
+
+
+
+
+
+
+.hal1 { 
+    max-width: 300px; 
+    margin: auto; 
+    background: #eeeeee; 
+    border: 3px solid green; 
+    padding: 10px; 
+}
+
+.hal2 { 
+    max-width: 300px; 
+    margin: auto; 
+    padding: 10px; 
+}
+
+.b{
+    margin: auto; 
+    text-align: center; 
+    color: black;
+    padding: 10px; 
+    font-family: Algerian;
+}
+
+.utama button{
+    background-color: rgb(9, 242, 9);
+    width: 70px;
+    height: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-color: rgb(7, 152, 16);
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.f{
+    text-align: center
+}
